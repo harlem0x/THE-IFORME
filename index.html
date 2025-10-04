@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Informe - Sua Denúncia Faz a Diferença</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+ 
+</head>
+<body>
+
+  <header class="py-3 bg-white shadow-sm">
+    <div class="container d-flex justify-content-center align-items-center">
+      <img src="src/logo_do_site.png" alt="Logo The Informe" class="header-logo"> <h1 class="ms-3 header-title">
+        THE <span>INFORME</span>
+      </h1>
+    </div>
+  </header>
+
+  <section class="hero-section text-center">
+    <div class="container">
+      <h2 class="display-5 mb-3">Sua denúncia faz a diferença!</h2>
+      <p class="lead text-muted mb-4" style="max-width: 700px; margin: 0 auto;">
+        Ajude a transformar seu bairro! Denuncie terrenos baldios, lixo e entulhos com fotos, localização e descrição. Juntos, deixamos nossa comunidade mais segura, limpa e saudável.
+      </p>
+    </div>
+  </section>
+
+  <div id="carrosselImagens" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="src/lixo_jogado_no_chao.jpg" class="d-block w-100" alt="Terreno com lixo acumulado">
+      </div>
+      <div class="carousel-item">
+        <img src="src/copos_no_rio.jpg" class="d-block w-100" alt="Entulho em área urbana">
+      </div>
+      <div class="carousel-item">
+        <img src="src/pessoas_juntando_lixo.jpg" class="d-block w-100" alt="Lixo em terreno baldio">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carrosselImagens" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carrosselImagens" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Próximo</span>
+    </button>
+  </div>
+
+  <section class="container my-5 py-5">
+    <h3 class="text-center mb-5">Como Funciona em 3 Passos Simples</h3>
+    <div class="row text-center g-4">
+      <div class="col-md-4">
+        <div class="feature-card h-100">
+          <i class="bi bi-geo-alt-fill feature-icon"></i>
+          <h5>1. Identifique o Local</h5>
+          <p class="text-muted">Encontre um terreno baldio ou ponto de lixo em sua comunidade e registre a localização exata.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-card h-100">
+          <i class="bi bi-card-text feature-icon"></i>
+          <h5>2. Preencha o Formulário</h5>
+          <p class="text-muted">Envie fotos e uma breve descrição do problema através do nosso formulário rápido e fácil.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-card h-100">
+          <i class="bi bi-hourglass-split feature-icon"></i>
+          <h5>3. Acompanhe a Resolução</h5>
+          <p class="text-muted">Nossa equipe encaminhará a denúncia aos órgãos responsáveis e você poderá acompanhar o progresso.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="form-section">
+                <h3 class="text-center mb-4">Faça sua Denúncia Agora</h3>
+                <form>
+                  <div class="mb-3">
+                    <label for="nome" class="form-label">Seu Nome (Opcional)</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+                  </div>
+                  <div class="mb-3">
+                    <label for="local" class="form-label">Endereço do Local</label>
+                    <input type="text" class="form-control" id="local" placeholder="Ex: Rua Exemplo, 123, Bairro" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="descricao" class="form-label">Descrição do Problema</label>
+                    <textarea class="form-control" id="descricao" rows="4" placeholder="Descreva o que você viu, como tipo de lixo, entulho, etc." required></textarea>
+                  </div>
+                  <div class="mb-3">
+                    <label for="fotos" class="form-label">Envie Fotos do Local</label>
+                    <input type="file" class="form-control" id="fotos" multiple>
+                  </div>
+                  <div class="d-grid">
+                    <button type="submit" class="btn btn-destaque">Enviar Denúncia</button>
+                  </div>
+                </form>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white py-5 footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <h5>The Informe</h5>
+          <p class="text-white-50">Juntos por uma cidade mais limpa e saudável.</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h5>Links Rápidos</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">Início</a></li>
+            <li><a href="#" class="text-white">Fazer Denúncia</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h5>Contato</h5>
+          <ul class="list-unstyled">
+              <li><i class="bi bi-envelope-fill me-2"></i>contato@theinforme.com</li>
+              <li><i class="bi bi-whatsapp me-2"></i>(86) 99999-9999</li>
+          </ul>
+        </div>
+      </div>
+      <hr class="my-4">
+      <div class="text-center text-white-50">
+        <p>&copy; 2025 The Informe. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
