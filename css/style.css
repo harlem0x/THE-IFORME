@@ -5,25 +5,23 @@
   --cor-fundo: #f8f9fa;
   --cor-texto: #212529;
   --cor-primaria: #28a745; 
-  --cor-destaque: #ffc107; 
+  --cor-destaque: #28a745; 
   --cor-cabecalho-texto: #005a20;
   /* --- MUDANÇA APLICADA AQUI --- */
   --fonte-titulos: 'Montserrat', sans-serif;
   --fonte-textos: 'Roboto', sans-serif;
 }
 
-/* -------------------
+/*
    ESTILOS GERAIS
-------------------- */
+ */
 body {
   background-color: var(--cor-fundo);
-  /* --- MUDANÇA APLICADA AQUI --- */
   font-family: var(--fonte-textos);
   color: var(--cor-texto);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  /* --- MUDANÇA APLICADA AQUI --- */
   font-family: var(--fonte-titulos);
   font-weight: 700;
 }
@@ -39,9 +37,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-destaque:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.668);
 }
-
 /* -------------------
    HEADER (CABEÇALHO)
 ------------------- */
@@ -58,17 +55,15 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--cor-primaria);
 }
 
-/* -------------------
-   SEÇÃO PRINCIPAL (HERO)
-------------------- */
+/* 
+   SEÇÃO PRINCIPAL 
+ */
 .hero-section {
   background-color: #ffffff;
   padding: 80px 0;
 }
 
-/* -------------------
-   SEÇÃO "COMO FUNCIONA"
-------------------- */
+
 .feature-icon {
   font-size: 3rem;
   color: var(--cor-primaria);
